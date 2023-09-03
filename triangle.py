@@ -1,4 +1,4 @@
-"""Triangle class, subclass of Shape"""
+"""Triangle class, subclass of Shape class"""
 
 from shape import Shape
 
@@ -40,4 +40,5 @@ class Triangle(Shape):
             return  None 
         
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com

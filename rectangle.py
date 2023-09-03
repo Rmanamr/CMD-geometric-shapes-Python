@@ -1,4 +1,4 @@
-"""Rectangle class, subclass of Shape"""
+"""Rectangle class, subclass of Shape class"""
 
 from shape import Shape
 from abc import abstractmethod
@@ -41,5 +41,6 @@ class Rectangle(Shape):
             self.width = w
 
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com
     

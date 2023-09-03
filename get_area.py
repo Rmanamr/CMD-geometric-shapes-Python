@@ -24,5 +24,6 @@ class Get_Area:
             return "Shape not defiend"
 
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com
     

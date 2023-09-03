@@ -21,5 +21,6 @@ class Get_Perimeter:
             return "Shape not defiend"
 
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com
     

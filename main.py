@@ -90,5 +90,6 @@ if __name__ == '__main__':
     main()
 
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com
     

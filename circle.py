@@ -1,4 +1,4 @@
-"""Circle class, subclass of Shape"""
+"""Circle class, subclass of Shape class"""
 
 from shape import Shape
 
@@ -28,4 +28,6 @@ class Circle(Shape):
             self.radius = r
 
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com
+

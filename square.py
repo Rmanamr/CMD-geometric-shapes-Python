@@ -1,4 +1,4 @@
-"""Square class, subclass of Shape and Rectangle"""
+"""Square class, subclass of Shape class and subclass of Rectangle class"""
 
 from rectangle import Rectangle
 
@@ -30,5 +30,6 @@ class Square(Rectangle):
        super().set_lenght(w)
 
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com
     

@@ -18,5 +18,6 @@ class Define:
             print("Shape not defiend")
 
 
-#by Arman Azarnik
+# by Arman Azarnik
+# armanazarnik@gmail.com
     
