@@ -4,4 +4,3 @@ Object oriented shape class and subclasses, enter the shape's name, color and ot
 
 Feel free to contact me at:
 @ armanazarnik@gmail.com
-
