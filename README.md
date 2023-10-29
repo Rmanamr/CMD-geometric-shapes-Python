@@ -3,14 +3,15 @@ Object-oriented shape class and subclasses, enter the shape's name, color, and o
 using Python version 3.11.4  
 
 Run the program using :  
-CMD_Iranian_National_Code_Validation_API.exe  
+CMD_Geometric_Shapes.exe  
 or using :  
-"python CMD_Iranian_National_Code_Validation_API.py" in Windows CMD  
-while CMD is in the CMD-Iranian-national-code-validation-API-Python directory  
+"python CMD_Geometric_Shapes.py" in Windows CMD  
+while CMD is in the CMD-geometric-shapes-Python directory  
 
 You can see the program document using :  
-"python -m pydoc CMD_Iranian_National_Code_Validation_API"  
- while CMD is in the CMD-Iranian-national-code-validation-API-Python directory  
+"python -m pydoc CMD_Geometric_Shapes"  
+ while CMD is in the CMD-geometric-shapes-Python
+ directory  
   
 Feel free to contact me at:  
 @ armanazarnik@gmail.com
