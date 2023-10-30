@@ -1,8 +1,18 @@
-"""Triangle class, subclass of Shape class"""
+"""Python CMD program, object-oriented shape class and subclasses, enter the shape's name, color and other attributes 
+to construct them and calculate the area and perimeter.
+using Python version 3.11.4
+@version : 1.0
+@license: MIT License
+@author : Arman Azarnik
+contact me at : armanazarnik@gmail.com
+"""
 
-from shape import Shape
+from Shape import Shape
 
 class Triangle(Shape):
+    """
+    Triangle class, subclass of Shape class.
+    """
     count = 0
     def __init__(self, color = None, a = None, b = None ,c = None):
         super().__init__(color)
@@ -36,9 +46,6 @@ class Triangle(Shape):
             self.side3 = 1
         else:
             self.side3 = c
-        if self.side1+self.side2 == self.side3 or self.side1+self.side3 == self.side2 or self.side2+self.side3 == self.side1:
-            return  None 
-        
 
-# by Arman Azarnik
-# armanazarnik@gmail.com
+        if self.side1+self.side2 == self.side3 or self.side1+self.side3 == self.side2 or self.side2+self.side3 == self.side1:
+            self.side3 = self.side1 + self.side2 + 1

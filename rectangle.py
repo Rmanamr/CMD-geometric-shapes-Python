@@ -1,9 +1,19 @@
-"""Rectangle class, subclass of Shape class"""
+"""Python CMD program, object-oriented shape class and subclasses, enter the shape's name, color and other attributes 
+to construct them and calculate the area and perimeter.
+using Python version 3.11.4
+@version : 1.0
+@license: MIT License
+@author : Arman Azarnik
+contact me at : armanazarnik@gmail.com
+"""
 
-from shape import Shape
+from Shape import Shape
 from abc import abstractmethod
 
 class Rectangle(Shape):
+    """
+    Rectangle class, subclass of Shape class
+    """
     count = 0
     def __init__(self, color, l = None , w = None):
         super().__init__(color)
@@ -26,7 +36,7 @@ class Rectangle(Shape):
     
     @abstractmethod
     def get_width(self):
-        return self.lenght
+        return self.width
     
     def set_lenght(self, l = None):
         if l == None or l <= 0:
@@ -39,8 +49,3 @@ class Rectangle(Shape):
             self.width = 1
         else:
             self.width = w
-
-
-# by Arman Azarnik
-# armanazarnik@gmail.com
-    
